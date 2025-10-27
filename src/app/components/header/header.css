@@ -1,0 +1,36 @@
+.header_bar{
+    background-color: #fff;
+    width: 100%;
+    height: 10vh;
+}
+
+button{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background: transparent;
+    gap: .65rem;
+}
+
+button>div{
+   background: #000000;
+   height: 2px;
+   width: 100%;
+   border-radius: 5px;
+   transition: all .5s;
+   transform-origin: left;
+}
+
+button:hover div:first-child{
+    transform: rotate(45deg);
+}
+
+button:hover div:nth-child(2){
+    opacity: 0;
+}
+
+button:hover div:last-child{
+    transform: rotate(-45deg);
+}

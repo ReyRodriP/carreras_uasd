@@ -1,4 +1,6 @@
-h1{
-    font-family: sans-serif;
-    color: aqua;
+.content {
+    margin-left: 88px;
+    min-height: 100vh;
+    background: #111;
+    color: #fff;
 }

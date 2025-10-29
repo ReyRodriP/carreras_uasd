@@ -7,6 +7,8 @@
     padding: 10px 14px;
     background: var(--sidebar-color);
     transition: var(--tran-04);
+    box-shadow: 0px 0px 5px #111;
+    z-index: 100;
 }
 
 .sidebar.close{
@@ -43,6 +45,7 @@
     color: var(--text-color);
     transition: var(--tran-02);
     font-weight: bold;
+    overflow: hidden;
 }
 
 .sidebar .image-text img{
